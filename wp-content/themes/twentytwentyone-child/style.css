@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Twenty twentyone Child
+ Theme URI:    https://localhost/legalWheat
+ Description:  Twenty twentyone Child Theme
+ Author:       SuperGreggo
+ Author URI:   https://github.com/kokorirko/legalWheat
+ Template:     twentytwentyone
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyTwentyOne Child
+*/
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap');
+
+*{
+    font-family: 'Taviraj', serif;
+}
