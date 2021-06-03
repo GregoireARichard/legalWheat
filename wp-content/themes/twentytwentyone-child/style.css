@@ -11,8 +11,12 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentyTwentyOne Child
 */
-@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap');
 
-*{
-    font-family: 'Taviraj', serif;
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap');
+body{
+	background: #211F20;
+	color:#FDFCF9;
+}
+h1,h2,h3,h4,p{
+	font-family: 'Taviraj', serif;
 }
