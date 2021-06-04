@@ -2,7 +2,7 @@
 /*
 Plugin Name: legalWheat Handler
 Plugin URI: https://github.com/kokorirko/
-Description: Plug-in pour LegalWheat
+Description: Plug-in pour gérer les différentes options de legalWheat et garder son nez hors de la farine
 Version: 0.0.1
 Author : SuperGreggo
 Author URI: https://github.com/kokorirko/

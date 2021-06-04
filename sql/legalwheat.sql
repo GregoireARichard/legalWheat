@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  ven. 04 juin 2021 à 14:13
+-- Généré le :  ven. 04 juin 2021 à 14:28
 -- Version du serveur :  5.7.21
 -- Version de PHP :  5.6.35
 
@@ -117,7 +117,7 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`),
   KEY `autoload` (`autoload`)
-) ENGINE=MyISAM AUTO_INCREMENT=234 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=236 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
 -- Déchargement des données de la table `wp_options`
@@ -254,8 +254,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (166, 'can_compress_scripts', '1', 'no'),
 (164, '_site_transient_update_themes', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1622791603;s:7:\"checked\";a:2:{s:21:\"twentytwentyone-child\";s:5:\"0.0.1\";s:15:\"twentytwentyone\";s:3:\"1.3\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:1:{s:15:\"twentytwentyone\";a:6:{s:5:\"theme\";s:15:\"twentytwentyone\";s:11:\"new_version\";s:3:\"1.3\";s:3:\"url\";s:45:\"https://wordpress.org/themes/twentytwentyone/\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/theme/twentytwentyone.1.3.zip\";s:8:\"requires\";s:3:\"5.3\";s:12:\"requires_php\";s:3:\"5.6\";}}s:12:\"translations\";a:0:{}}', 'no'),
 (165, 'https_detection_errors', 'a:1:{s:20:\"https_request_failed\";a:1:{i:0;s:28:\"La demande HTTPS a échoué.\";}}', 'yes'),
-(231, '_site_transient_timeout_theme_roots', '1622815056', 'no'),
-(232, '_site_transient_theme_roots', 'a:2:{s:21:\"twentytwentyone-child\";s:7:\"/themes\";s:15:\"twentytwentyone\";s:7:\"/themes\";}', 'no'),
+(234, '_site_transient_timeout_theme_roots', '1622818117', 'no'),
+(235, '_site_transient_theme_roots', 'a:2:{s:21:\"twentytwentyone-child\";s:7:\"/themes\";s:15:\"twentytwentyone\";s:7:\"/themes\";}', 'no'),
 (173, 'nav_menu_options', 'a:1:{s:8:\"auto_add\";a:0:{}}', 'yes'),
 (148, 'current_theme', 'Twenty twentyone Child', 'yes'),
 (149, 'theme_mods_twentytwentyone', 'a:4:{i:0;b:0;s:18:\"nav_menu_locations\";a:2:{s:7:\"primary\";i:2;s:6:\"footer\";i:3;}s:18:\"custom_css_post_id\";i:22;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1622717534;s:4:\"data\";a:2:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}}}}', 'yes'),
@@ -273,7 +273,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (225, '_transient_feed_mod_0d2db5fea5a8633b56992c916819b198', '1622798244', 'no'),
 (226, '_transient_timeout_dash_v2_bd94b8f41e74bae2f4dc72e9bd8379af', '1622841446', 'no'),
-(174, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1622815308;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.1.9\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.1.9.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}}s:9:\"hello.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:5:\"1.7.2\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/plugin/hello-dolly.1.7.2.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:64:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=2052855\";s:2:\"1x\";s:64:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=2052855\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:66:\"https://ps.w.org/hello-dolly/assets/banner-772x250.jpg?rev=2052855\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no'),
+(174, '_site_transient_update_plugins', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1622816267;s:7:\"checked\";a:3:{s:19:\"akismet/akismet.php\";s:5:\"4.1.9\";s:9:\"hello.php\";s:5:\"1.7.2\";s:25:\"legalWheat/legalWheat.php\";s:5:\"0.0.1\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.1.9\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.1.9.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}}s:9:\"hello.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:5:\"1.7.2\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/plugin/hello-dolly.1.7.2.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:64:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=2052855\";s:2:\"1x\";s:64:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=2052855\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:66:\"https://ps.w.org/hello-dolly/assets/banner-772x250.jpg?rev=2052855\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no'),
 (199, 'recently_activated', 'a:0:{}', 'yes'),
 (224, '_transient_timeout_feed_mod_0d2db5fea5a8633b56992c916819b198', '1622841444', 'no'),
 (209, '_transient_health-check-site-status-result', '{\"good\":\"13\",\"recommended\":\"6\",\"critical\":\"1\"}', 'yes'),
@@ -294,7 +294,7 @@ CREATE TABLE IF NOT EXISTS `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=MyISAM AUTO_INCREMENT=141 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=153 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
 -- Déchargement des données de la table `wp_postmeta`
@@ -383,7 +383,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (86, 34, '_wp_trash_meta_time', '1622718621'),
 (87, 36, '_wp_trash_meta_status', 'publish'),
 (88, 36, '_wp_trash_meta_time', '1622718650'),
-(89, 6, '_edit_lock', '1622721211:1'),
+(89, 6, '_edit_lock', '1622816561:1'),
 (90, 38, '_edit_lock', '1622721016:1'),
 (91, 38, '_customize_restore_dismissed', '1'),
 (92, 39, '_wp_trash_meta_status', 'publish'),
@@ -404,7 +404,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (113, 52, '_edit_lock', '1622755301:1'),
 (114, 52, '_wp_trash_meta_status', 'publish'),
 (115, 52, '_wp_trash_meta_time', '1622755303'),
-(116, 8, '_edit_lock', '1622814281:1'),
+(116, 8, '_edit_lock', '1622816200:1'),
 (117, 8, '_edit_last', '1'),
 (118, 2, '_edit_lock', '1622793436:1'),
 (119, 2, '_wp_trash_meta_status', 'publish'),
@@ -421,7 +421,19 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (133, 65, '_edit_lock', '1622796897:1'),
 (135, 65, '_wp_trash_meta_time', '1622796912'),
 (139, 70, '_customize_restore_dismissed', '1'),
-(140, 73, '_edit_lock', '1622814239:1');
+(140, 73, '_edit_lock', '1622814239:1'),
+(141, 75, '_edit_lock', '1622816196:1'),
+(142, 77, '_edit_lock', '1622816238:1'),
+(143, 79, '_edit_lock', '1622816263:1'),
+(144, 81, '_edit_lock', '1622816279:1'),
+(145, 83, '_edit_lock', '1622816304:1'),
+(146, 85, '_edit_lock', '1622816314:1'),
+(147, 87, '_edit_lock', '1622816339:1'),
+(148, 89, '_edit_lock', '1622816360:1'),
+(149, 91, '_edit_lock', '1622816380:1'),
+(150, 93, '_edit_lock', '1622816397:1'),
+(151, 95, '_edit_lock', '1622816408:1'),
+(152, 97, '_edit_lock', '1622816446:1');
 
 -- --------------------------------------------------------
 
@@ -459,7 +471,7 @@ CREATE TABLE IF NOT EXISTS `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=MyISAM AUTO_INCREMENT=75 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=99 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
 -- Déchargement des données de la table `wp_posts`
@@ -538,7 +550,31 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (70, 1, '2021-06-04 11:41:20', '0000-00-00 00:00:00', '{\n    \"custom_css[twentytwentyone-child]\": {\n        \"value\": \"@import url(\'https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap\');\\nbody{\\n\\tbackground: #211F20;\\n\\tcolor:#FDFCF9;\\n}\\nh1,h2,h3,h4,p{\\n\\tfont-family: \'Taviraj\', serif;\\n}\\n.widget-area{\\n\\tdisplay:none;\\n}\\n.customize-unpreviewable, .svg-icon{\\n\\tdisplay:none;\\n}\\n.site-title{\\n\\tcolor :#FDFCF9;\\n\\tfont-family: \'Taviraj\', serif;\\n\\ttext-transform: Capitalize;\\n}\\ndiv.primary-menu-container a{\\n\\tcolor:white;\\n}\\nheader{\\n\\tdisplay:none;\\n}\\nh1{\\n\\tfont-size:55px;\\n}\\n.wp-block-button__link{\\n\\tborder-radius:25px;\\n}\\n\",\n        \"type\": \"custom_css\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-06-04 09:41:20\"\n    }\n}', '', '', 'auto-draft', 'closed', 'closed', '', '28b62eac-3777-4558-b10f-b586c465d468', '', '', '2021-06-04 11:41:20', '2021-06-04 09:41:20', '', 0, 'http://localhost/legalWheat/?p=70', 0, 'customize_changeset', '', 0),
 (71, 1, '2021-06-04 15:40:45', '2021-06-04 13:40:45', '<!-- wp:heading {\"align\":\"wide\",\"style\":{\"typography\":{\"lineHeight\":\"1.1\",\"fontSize\":140}},\"className\":\"has-text-align-wide\"} -->\n<h2 class=\"alignwide has-text-align-wide\" style=\"font-size:140px;line-height:1.1\">Un classique, repensé.</h2>\n<!-- /wp:heading -->\n\n<!-- wp:spacer -->\n<div style=\"height:100px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:columns {\"verticalAlignment\":\"center\",\"align\":\"wide\",\"className\":\"is-style-twentytwentyone-columns-overlap\"} -->\n<div class=\"wp-block-columns alignwide are-vertically-aligned-center is-style-twentytwentyone-columns-overlap\"><!-- wp:column {\"verticalAlignment\":\"center\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\"><!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">Plus d\'infos</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"center\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\"><!-- wp:spacer {\"height\":117} -->\n<div style=\"height:117px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:buttons {\"contentJustification\":\"left\",\"align\":\"wide\"} -->\n<div class=\"wp-block-buttons alignwide is-content-justification-left\"><!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">En savoir plus</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":50} -->\n<div style=\"height:50px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:columns {\"verticalAlignment\":\"top\",\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide are-vertically-aligned-top\"><!-- wp:column {\"verticalAlignment\":\"top\"} -->\n<div class=\"wp-block-column is-vertically-aligned-top\"><!-- wp:heading {\"level\":3} -->\n<h3></h3>\n<!-- /wp:heading -->\n\n<!-- wp:latest-posts /--></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"top\"} -->\n<div class=\"wp-block-column is-vertically-aligned-top\"><!-- wp:heading {\"level\":3} -->\n<h3></h3>\n<!-- /wp:heading -->\n\n<!-- wp:latest-posts /--></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"top\"} -->\n<div class=\"wp-block-column is-vertically-aligned-top\"><!-- wp:heading {\"level\":3} -->\n<h3></h3>\n<!-- /wp:heading -->\n\n<!-- wp:latest-posts /--></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer -->\n<div style=\"height:100px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:cover {\"overlayColor\":\"green\",\"contentPosition\":\"center center\",\"align\":\"wide\",\"className\":\"is-style-twentytwentyone-border\"} -->\n<div class=\"wp-block-cover alignwide has-green-background-color has-background-dim is-style-twentytwentyone-border\"><div class=\"wp-block-cover__inner-container\"><!-- wp:spacer {\"height\":20} -->\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"fontSize\":\"huge\"} -->\n<p class=\"has-huge-font-size\">Besoin d’aide&nbsp;?</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:spacer {\"height\":75} -->\n<div style=\"height:75px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p><a href=\"https://wordpress.org/support/article/twenty-twenty-one/\">Lire la documentation du thème</a></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p><a href=\"https://wordpress.org/support/theme/twentytwentyone/\">Consulter les forums de support</a></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":20} -->\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:cover -->', 'legalWheat', '', 'inherit', 'closed', 'closed', '', '5-autosave-v1', '', '', '2021-06-04 15:40:45', '2021-06-04 13:40:45', '', 5, 'http://localhost/legalWheat/?p=71', 0, 'revision', '', 0),
 (73, 1, '2021-06-04 15:43:59', '0000-00-00 00:00:00', '', 'Brouillon auto', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2021-06-04 15:43:59', '0000-00-00 00:00:00', '', 0, 'http://localhost/legalWheat/?page_id=73', 0, 'page', '', 0),
-(74, 1, '2021-06-04 15:44:25', '2021-06-04 13:44:25', '', 'Nos produits', '', 'inherit', 'closed', 'closed', '', '8-revision-v1', '', '', '2021-06-04 15:44:25', '2021-06-04 13:44:25', '', 8, 'http://localhost/legalWheat/?p=74', 0, 'revision', '', 0);
+(74, 1, '2021-06-04 15:44:25', '2021-06-04 13:44:25', '', 'Nos produits', '', 'inherit', 'closed', 'closed', '', '8-revision-v1', '', '', '2021-06-04 15:44:25', '2021-06-04 13:44:25', '', 8, 'http://localhost/legalWheat/?p=74', 0, 'revision', '', 0),
+(75, 1, '2021-06-04 16:18:57', '2021-06-04 14:18:57', '', 'Farine T45 de Kojjekev 1 kilo (Russie)', '', 'publish', 'closed', 'closed', '', 'farine-t45-de-kojjekev-1-kilo-russie', '', '', '2021-06-04 16:18:57', '2021-06-04 14:18:57', '', 0, 'http://localhost/legalWheat/?page_id=75', 0, 'page', '', 0),
+(76, 1, '2021-06-04 16:18:57', '2021-06-04 14:18:57', '', 'Farine T45 de Kojjekev 1 kilo (Russie)', '', 'inherit', 'closed', 'closed', '', '75-revision-v1', '', '', '2021-06-04 16:18:57', '2021-06-04 14:18:57', '', 75, 'http://localhost/legalWheat/?p=76', 0, 'revision', '', 0),
+(77, 1, '2021-06-04 16:19:33', '2021-06-04 14:19:33', '', 'Farine T45 Firlovinsk', '', 'publish', 'closed', 'closed', '', 'farine-t45-firlovinsk', '', '', '2021-06-04 16:19:33', '2021-06-04 14:19:33', '', 0, 'http://localhost/legalWheat/?page_id=77', 0, 'page', '', 0),
+(78, 1, '2021-06-04 16:19:33', '2021-06-04 14:19:33', '', 'Farine T45 Firlovinsk', '', 'inherit', 'closed', 'closed', '', '77-revision-v1', '', '', '2021-06-04 16:19:33', '2021-06-04 14:19:33', '', 77, 'http://localhost/legalWheat/?p=78', 0, 'revision', '', 0),
+(79, 1, '2021-06-04 16:20:03', '2021-06-04 14:20:03', '', 'Farine T45 renforcée Grandiosa', '', 'publish', 'closed', 'closed', '', 'farine-t45-renforcee-grandiosa', '', '', '2021-06-04 16:20:03', '2021-06-04 14:20:03', '', 0, 'http://localhost/legalWheat/?page_id=79', 0, 'page', '', 0),
+(80, 1, '2021-06-04 16:20:03', '2021-06-04 14:20:03', '', 'Farine T45 renforcée Grandiosa', '', 'inherit', 'closed', 'closed', '', '79-revision-v1', '', '', '2021-06-04 16:20:03', '2021-06-04 14:20:03', '', 79, 'http://localhost/legalWheat/?p=80', 0, 'revision', '', 0),
+(81, 1, '2021-06-04 16:20:22', '2021-06-04 14:20:22', '', 'Farine T55 Blanchâtre', '', 'publish', 'closed', 'closed', '', 'farine-t55-blanchatre', '', '', '2021-06-04 16:20:22', '2021-06-04 14:20:22', '', 0, 'http://localhost/legalWheat/?page_id=81', 0, 'page', '', 0),
+(82, 1, '2021-06-04 16:20:22', '2021-06-04 14:20:22', '', 'Farine T55 Blanchâtre', '', 'inherit', 'closed', 'closed', '', '81-revision-v1', '', '', '2021-06-04 16:20:22', '2021-06-04 14:20:22', '', 81, 'http://localhost/legalWheat/?p=82', 0, 'revision', '', 0),
+(83, 1, '2021-06-04 16:20:36', '2021-06-04 14:20:36', '', 'Farine T65 Burlette', '', 'publish', 'closed', 'closed', '', 'farine-t65-burlette', '', '', '2021-06-04 16:20:36', '2021-06-04 14:20:36', '', 0, 'http://localhost/legalWheat/?page_id=83', 0, 'page', '', 0),
+(84, 1, '2021-06-04 16:20:36', '2021-06-04 14:20:36', '', 'Farine T65 Burlette', '', 'inherit', 'closed', 'closed', '', '83-revision-v1', '', '', '2021-06-04 16:20:36', '2021-06-04 14:20:36', '', 83, 'http://localhost/legalWheat/?p=84', 0, 'revision', '', 0),
+(85, 1, '2021-06-04 16:20:56', '2021-06-04 14:20:56', '', 'Farine T80 Mosskina', '', 'publish', 'closed', 'closed', '', 'farine-t80-mosskina', '', '', '2021-06-04 16:20:56', '2021-06-04 14:20:56', '', 0, 'http://localhost/legalWheat/?page_id=85', 0, 'page', '', 0),
+(86, 1, '2021-06-04 16:20:56', '2021-06-04 14:20:56', '', 'Farine T80 Mosskina', '', 'inherit', 'closed', 'closed', '', '85-revision-v1', '', '', '2021-06-04 16:20:56', '2021-06-04 14:20:56', '', 85, 'http://localhost/legalWheat/?p=86', 0, 'revision', '', 0),
+(87, 1, '2021-06-04 16:21:22', '2021-06-04 14:21:22', '', 'Farine T110 Semiyni', '', 'publish', 'closed', 'closed', '', 'farine-t110-semiyni', '', '', '2021-06-04 16:21:22', '2021-06-04 14:21:22', '', 0, 'http://localhost/legalWheat/?page_id=87', 0, 'page', '', 0),
+(88, 1, '2021-06-04 16:21:22', '2021-06-04 14:21:22', '', 'Farine T110 Semiyni', '', 'inherit', 'closed', 'closed', '', '87-revision-v1', '', '', '2021-06-04 16:21:22', '2021-06-04 14:21:22', '', 87, 'http://localhost/legalWheat/?p=88', 0, 'revision', '', 0),
+(89, 1, '2021-06-04 16:21:35', '2021-06-04 14:21:35', '', 'Farine T150 Hikojima', '', 'publish', 'closed', 'closed', '', 'farine-t150-hikojima', '', '', '2021-06-04 16:21:35', '2021-06-04 14:21:35', '', 0, 'http://localhost/legalWheat/?page_id=89', 0, 'page', '', 0),
+(90, 1, '2021-06-04 16:21:35', '2021-06-04 14:21:35', '', 'Farine T150 Hikojima', '', 'inherit', 'closed', 'closed', '', '89-revision-v1', '', '', '2021-06-04 16:21:35', '2021-06-04 14:21:35', '', 89, 'http://localhost/legalWheat/?p=90', 0, 'revision', '', 0),
+(91, 1, '2021-06-04 16:22:00', '2021-06-04 14:22:00', '', 'Farine T150 Frostini', '', 'publish', 'closed', 'closed', '', 'farine-t150-frostini', '', '', '2021-06-04 16:22:00', '2021-06-04 14:22:00', '', 0, 'http://localhost/legalWheat/?page_id=91', 0, 'page', '', 0),
+(92, 1, '2021-06-04 16:22:00', '2021-06-04 14:22:00', '', 'Farine T150 Frostini', '', 'inherit', 'closed', 'closed', '', '91-revision-v1', '', '', '2021-06-04 16:22:00', '2021-06-04 14:22:00', '', 91, 'http://localhost/legalWheat/?p=92', 0, 'revision', '', 0),
+(93, 1, '2021-06-04 16:22:16', '2021-06-04 14:22:16', '', 'Farine T170 Gurtijav', '', 'publish', 'closed', 'closed', '', 'farine-t170-gurtijav', '', '', '2021-06-04 16:22:16', '2021-06-04 14:22:16', '', 0, 'http://localhost/legalWheat/?page_id=93', 0, 'page', '', 0),
+(94, 1, '2021-06-04 16:22:16', '2021-06-04 14:22:16', '', 'Farine T170 Gurtijav', '', 'inherit', 'closed', 'closed', '', '93-revision-v1', '', '', '2021-06-04 16:22:16', '2021-06-04 14:22:16', '', 93, 'http://localhost/legalWheat/?p=94', 0, 'revision', '', 0),
+(95, 1, '2021-06-04 16:22:30', '2021-06-04 14:22:30', '', 'Cocaïne TX Moscovitxi', '', 'publish', 'closed', 'closed', '', 'cocaine-tx-moscovitxi', '', '', '2021-06-04 16:22:30', '2021-06-04 14:22:30', '', 0, 'http://localhost/legalWheat/?page_id=95', 0, 'page', '', 0),
+(96, 1, '2021-06-04 16:22:30', '2021-06-04 14:22:30', '', 'Cocaïne TX Moscovitxi', '', 'inherit', 'closed', 'closed', '', '95-revision-v1', '', '', '2021-06-04 16:22:30', '2021-06-04 14:22:30', '', 95, 'http://localhost/legalWheat/?p=96', 0, 'revision', '', 0),
+(97, 1, '2021-06-04 16:22:50', '2021-06-04 14:22:50', '', 'Ergot de Seigle Monstreuil', '', 'publish', 'closed', 'closed', '', 'ergot-de-seigle-monstreuil', '', '', '2021-06-04 16:22:50', '2021-06-04 14:22:50', '', 0, 'http://localhost/legalWheat/?page_id=97', 0, 'page', '', 0),
+(98, 1, '2021-06-04 16:22:50', '2021-06-04 14:22:50', '', 'Ergot de Seigle Monstreuil', '', 'inherit', 'closed', 'closed', '', '97-revision-v1', '', '', '2021-06-04 16:22:50', '2021-06-04 14:22:50', '', 97, 'http://localhost/legalWheat/?p=98', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
